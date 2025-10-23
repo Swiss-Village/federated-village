@@ -1,33 +1,24 @@
-# website
+# README
 
-Public website and admin UI. This project uses Ruby on Rails for server-rendered pages, admin interfaces, and APIs.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Suggested stack
+Things you may want to cover:
 
-- Ruby on Rails (latest stable) with Hotwire/Turbo for progressive enhancement, or Rails + React where needed.
-- Database: PostgreSQL
-- Styling: Tailwind CSS or plain Rails asset pipeline
+* Ruby version
 
-Example dev commands (Rails)
+* System dependencies
 
-```bash
-# install gems
-bundle install
+* Configuration
 
-# install JS deps if using importmap/webpack/JS
-pnpm install # or pnpm install
+* Database creation
 
-# create & migrate database
-rails db:create db:migrate
+* Database initialization
 
-# run dev server
-rails server
+* How to run the test suite
 
-# run tests
-bundle exec rspec # or rails test
-```
+* Services (job queues, cache servers, search engines, etc.)
 
-Notes
+* Deployment instructions
 
-- Document environment variables, credentials, and any CMS/data sources in this README.
-- Admin UI can live under `app/controllers/admin` or as a separate Rails engine if you prefer.
+* ...

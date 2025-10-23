@@ -1,6 +1,9 @@
 packages:
-  - 'shared'
-  - 'mobile-client'
-  - 'website'
-  - 'registrar'
-  - 'docs'
+  - shared
+  - mobile-client
+  - website
+  - registrar
+  - docs
+
+ignoredBuiltDependencies:
+  - esbuild
