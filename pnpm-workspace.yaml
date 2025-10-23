@@ -1,0 +1,6 @@
+packages:
+  - 'shared'
+  - 'mobile-client'
+  - 'website'
+  - 'registrar'
+  - 'docs'

@@ -1,0 +1,11 @@
+{
+  "name": "registrar",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bundle exec rails server -p 4000",
+    "build": "echo \"Registrar build step (assets/precompile) handled in CI/deploy\"",
+    "test": "bundle exec rspec || bundle exec rails test",
+    "lint": "echo \"Run RuboCop or other linters as needed\""
+  }
+}

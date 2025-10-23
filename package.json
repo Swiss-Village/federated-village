@@ -1,0 +1,23 @@
+{
+  "name": "federated-village",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "shared",
+    "mobile-client",
+    "website",
+    "registrar",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "pnpm -w -r --parallel run dev",
+    "dev:website": "pnpm --filter website run dev",
+    "dev:registrar": "pnpm --filter registrar run dev",
+    "dev:mobile": "pnpm --filter mobile-client run dev",
+    "setup:website": "pnpm --filter website run setup",
+    "build": "pnpm -w -r --parallel run build",
+    "test": "pnpm -w -r --parallel run test",
+    "lint": "pnpm -w -r --parallel run lint"
+  },
+  "devDependencies": {}
+}

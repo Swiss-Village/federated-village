@@ -1,0 +1,11 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"No dev server for shared package; run dependent apps instead\"",
+    "build": "echo \"Build shared library (e.g. tsc) if applicable\"",
+    "test": "echo \"Add tests for shared package\"",
+    "lint": "echo \"Run eslint/prettier here if applicable\""
+  }
+}

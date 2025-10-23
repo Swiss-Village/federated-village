@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "private": "true",
+  "scripts": {
+    "dev": "foreman start -f Procfile.dev",
+    "setup": "bin/setup",
+    "lint": "run-p lint:eslint lint:stylelint lint:prettier",
+    "lint:eslint": "eslint --max-warnings=0 --no-error-on-unmatched-pattern 'app/javascript/**/*.js'",
+    "lint:stylelint": "stylelint 'app/assets/stylesheets/**/*.css'",
+    "lint:prettier": "prettier --check '**/*' --ignore-unknown",
+    "fix:prettier": "prettier --write '**/*' --ignore-unknown",
+    "build:css": "postcss ./app/assets/stylesheets/application.postcss.css -o ./app/assets/builds/application.css"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
+}

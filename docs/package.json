@@ -1,0 +1,10 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Docs dev: run your static site generator here (e.g. Docusaurus, MkDocs)\"",
+    "build": "echo \"Docs build: run static site generator build\"",
+    "test": "echo \"Docs tests (link check, spellcheck)\""
+  }
+}
